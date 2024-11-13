@@ -8,11 +8,12 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      
+      colors:{
+        bgRed: "#F35C7A",
+      }
     },
+    
   },
   plugins: [],
 } satisfies Config;
